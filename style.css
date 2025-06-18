@@ -1,0 +1,32 @@
+body{
+    text-align: center;
+}
+
+.paragrafo{
+    color: black;
+    background-color: aqua;
+    font-family: 'Roboto', Arial sans-serif;
+    text-align: center;
+}
+
+.nivel{
+    font-size: 2rem;
+    color: rgb(58, 98, 133);
+}
+
+.destaque{
+    font-weight: bold;
+}
+
+blockquote{
+    font-style: italic;
+}
+
+.caixa{
+    text-transform: uppercase;
+}
+
+.caixa img{
+    width: 100 px;
+    height: 100px;
+}
