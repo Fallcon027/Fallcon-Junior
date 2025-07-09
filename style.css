@@ -1,32 +1,44 @@
-body{
+div {
+    background-color: lightblue;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+#lista{
+    display: flex;
+    gap: 20px;
+}
+
+.item{
+    background-color: blue;
+    padding: 20px;
+    color: white;
+    flex-grow: 1;
+}
+
+.dobro{
+    flex-grow: 2;
+    background-color: blue;
+    color: white;
+}
+
+h1 {
+    color: darkblue;
     text-align: center;
 }
 
-.paragrafo{
-    color: black;
-    background-color: aqua;
-    font-family: 'Roboto', Arial sans-serif;
-    text-align: center;
+.menu img{
+    width: 20px;
+    height: auto;
 }
 
-.nivel{
-    font-size: 2rem;
-    color: rgb(58, 98, 133);
+.menu{
+    display: flex;
+    justify-content: flex-end;
 }
-
-.destaque{
-    font-weight: bold;
-}
-
-blockquote{
-    font-style: italic;
-}
-
-.caixa{
-    text-transform: uppercase;
-}
-
-.caixa img{
-    width: 100 px;
-    height: 100px;
+.menu img:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
 }
